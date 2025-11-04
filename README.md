@@ -17,9 +17,9 @@ Bu proje, Python'un `tkinter` kütüphanesi ile oluşturulmuş basit bir satran�
 
 Projenin çalışması için aşağıdaki Python kütüphanelerine ihtiyaç vardır. [cite\_start]Bu gereksinimler `requirements.txt` dosyasında listelenmiştir[cite: 1]:
 
-  * [cite\_start]`chess`[cite: 1]: Satranç kuralları, hamleler ve tahta yönetimi için.
-  * [cite\_start]`stockfish`[cite: 1]: Stockfish motoru ile Python arasında bir arayüz sağlar.
-  * [cite\_start]`jupyter`[cite: 1]: Kod bir Jupyter Notebook (`.ipynb`) dosyasında sağlanmıştır.
+  * `chess`: Satranç kuralları, hamleler ve tahta yönetimi için.
+  * `stockfish`: Stockfish motoru ile Python arasında bir arayüz sağlar.
+  * `jupyter`: Kod bir Jupyter Notebook (`.ipynb`) dosyasında sağlanmıştır.
   * `tkinter`: GUI için kullanılır (Genellikle Python standart kütüphanesiyle birlikte gelir).
 
 Bu kütüphaneleri yüklemek için:
@@ -83,4 +83,5 @@ Bu satırdaki **placeholder (yer tutucu) yolu**, indirdiğiniz `.exe` dosyasın�
     jupyter notebook
     ```
 4.  Tarayıcınızda açılan Jupyter arayüzünden `ches-gui.ipynb` dosyasını açın.
+
 5.  Kodu çalıştırın. `tkinter` arayüzü yeni bir pencerede açılacaktır.
